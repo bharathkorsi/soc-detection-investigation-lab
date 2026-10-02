@@ -2,7 +2,31 @@
 # SOC Detection Engineering and Incident Investigation Lab
 
 ## Project Status
-Planning phase — lab setup and detection testing have not started.
+## Project Status
+
+The first detection is implemented in Python using synthetic login events.
+
+### Completed
+- Created an eight-event synthetic login dataset.
+- Built a detection for five or more failed logins within five minutes followed by a successful login.
+- Grouped events by username, source IP, and host.
+- Generated one alert from the sample dataset.
+- Passed seven checks covering the threshold, time boundary, and event grouping.
+
+### Project Evidence
+- [Python detection](detections/detect_failed_logins.py)
+- [Detection rule and limitations](detections/failed-login-rule.md)
+- [Synthetic dataset](sample-logs/synthetic-login-events.csv)
+- [Detection output](reports/failed-login-output.txt)
+- [Seven validation results](reports/failed-login-validation.txt)
+
+### Next Steps
+- Write an investigation report for the sample alert.
+- Add more detection scenarios.
+- Explore real event logs and SIEM integration.
+
+This phase uses fictional data for learning. Real Windows log collection
+and SIEM integration have not been implemented.
 
 ## Overview
 This is a personal cybersecurity lab for practicing security
