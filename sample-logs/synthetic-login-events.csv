@@ -1,0 +1,9 @@
+timestamp,username,source_ip,host,result
+2026-10-02T10:00:00Z,lab-user,192.0.2.10,LAB-PC,failure
+2026-10-02T10:00:30Z,lab-user,192.0.2.10,LAB-PC,failure
+2026-10-02T10:01:00Z,lab-user,192.0.2.10,LAB-PC,failure
+2026-10-02T10:01:30Z,lab-user,192.0.2.10,LAB-PC,failure
+2026-10-02T10:02:00Z,lab-user,192.0.2.10,LAB-PC,failure
+2026-10-02T10:02:30Z,lab-user,192.0.2.10,LAB-PC,success
+2026-10-02T10:03:00Z,normal-user,192.0.2.20,LAB-PC,failure
+2026-10-02T10:03:30Z,normal-user,192.0.2.20,LAB-PC,success
