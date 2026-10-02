@@ -1,0 +1,7 @@
+PASS: Five failures then success | expected=1, actual=1
+PASS: Four failures then success | expected=0, actual=0
+PASS: Failures exactly five minutes old | expected=1, actual=1
+PASS: Failures older than five minutes | expected=0, actual=0
+PASS: Different username | expected=0, actual=0
+PASS: Different source IP | expected=0, actual=0
+PASS: Different host | expected=0, actual=0
