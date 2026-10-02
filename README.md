@@ -98,3 +98,12 @@ Simulated activity will be clearly labeled.
 - [ ] Completed an investigation report
 - [ ] Added Python automation
 - [ ] Published the portfolio case study
+## Detection Screenshot
+
+Python detection output from the synthetic login dataset:
+
+![Synthetic login detection showing one alert](screenshots/failed-login-detection.png)
+
+## Investigation Report
+
+[Read the synthetic login alert investigation](reports/failed-login-investigation.md)
