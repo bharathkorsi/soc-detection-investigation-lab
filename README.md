@@ -21,7 +21,6 @@ The first detection is implemented in Python using synthetic login events.
 - [Seven validation results](reports/failed-login-validation.txt)
 
 ### Next Steps
-- Write an investigation report for the sample alert.
 - Add more detection scenarios.
 - Explore real event logs and SIEM integration.
 
