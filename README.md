@@ -88,15 +88,18 @@ Simulated activity will be clearly labeled.
 - Another person can understand and reproduce the setup.
 
 ## Progress
+
 - [x] Defined the project objective
 - [x] Selected three detection scenarios
 - [x] Created the project repository
-- [ ] Prepared the lab environment
-- [ ] Configured log collection
-- [ ] Built and validated detection rules
-- [ ] Completed an investigation report
-- [ ] Added Python automation
-- [ ] Published the portfolio case study
+- [x] Prepared the local Python environment
+- [x] Created a synthetic login dataset
+- [x] Built one Python detection and passed seven validation checks
+- [x] Completed a synthetic alert investigation report
+- [x] Published code, results, and a screenshot on GitHub
+- [ ] Implement the remaining detection scenarios
+- [ ] Configure real event log collection and SIEM integration
+- [ ] Share the project on social media
 ## Detection Screenshot
 
 Python detection output from the synthetic login dataset:
