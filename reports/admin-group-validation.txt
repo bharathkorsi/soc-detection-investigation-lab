@@ -1,0 +1,7 @@
+PASS: Administrators addition | expected=1, actual=1
+PASS: Ordinary Users addition | expected=0, actual=0
+PASS: Administrators removal | expected=0, actual=0
+PASS: Uppercase names | expected=1, actual=1
+PASS: Surrounding spaces | expected=1, actual=1
+PASS: Mixed group changes | expected=1, actual=1
+PASS: Empty dataset | expected=0, actual=0

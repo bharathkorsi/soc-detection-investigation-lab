@@ -1,0 +1,3 @@
+ALERT: Administrative group addition | Time: 2026-10-04T10:00:00Z | Host: LAB-PC | Actor: lab-admin | Added user: support-user
+
+Total alerts: 1
