@@ -1,0 +1,4 @@
+timestamp,host,actor,target_user,group,action
+2026-10-04T10:00:00Z,LAB-PC,lab-admin,support-user,Administrators,member_added
+2026-10-04T10:05:00Z,LAB-PC,lab-admin,normal-user,Users,member_added
+2026-10-04T10:10:00Z,LAB-PC,lab-admin,support-user,Administrators,member_removed
