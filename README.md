@@ -109,3 +109,23 @@ Python detection output from the synthetic login dataset:
 ## Investigation Report
 
 [Read the synthetic login alert investigation](reports/failed-login-investigation.md)
+## Administrators Group Addition Detection
+
+Python detection using three fictional group-change events.
+Generated one alert and passed seven automated validation checks.
+
+- [Detection code](detections/detect_admin_group_changes.py)
+- [Rule and limitations](detections/admin-group-rule.md)
+- [Synthetic dataset](sample-logs/synthetic-group-changes.csv)
+- [Alert output](reports/admin-group-output.txt)
+- [Seven validation results](reports/admin-group-validation.txt)
+- [Reusable tests](tests/validate_admin_group_changes.py)
+- [Investigation report](reports/admin-group-investigation.md)
+
+Run from the project folder:
+
+    python3 detections/detect_admin_group_changes.py
+    python3 tests/validate_admin_group_changes.py
+
+This exercise uses synthetic data. Real Windows log collection
+and SIEM integration remain planned.
